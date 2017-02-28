@@ -1,0 +1,138 @@
+.top {
+	
+	padding: 130px;
+	font-size: 35px;
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+
+  	height: 130px;
+	background: #7887ab url('/images/665092.jpg') 
+	no-repeat center;
+	background-size: cover;
+    box-shadow: 10px 10px 5px grey
+
+}
+body{
+	background: url()
+	no-repeat center;
+	background-size: cover;
+
+}
+
+img {
+	  -webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+span{
+	color: white;
+}
+h5 {
+	font-family: "arial";
+	color: gray;
+}
+
+.clear {
+	clear: both;
+	padding: 10px;
+}
+
+.items {
+	width: 100px;
+	text-align: left;
+}
+
+
+.price {
+	width: 20px;
+
+}
+
+#tHead {
+	text-align: center;
+}
+
+.prodName{
+	text-align: left;
+	font-size: 18px;
+}
+
+.prodDesc {
+	text-align: left;
+	font-size: 13px;
+}
+
+.prodPrice {
+	text-align: left;
+}
+
+#products {
+    border-collapse: collapse;
+    width: 100%;
+    background-image: 
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+button[onclick^="del"]:before {
+    content: "\01F5D9";
+}
+
+button[onclick^="add"]:before {
+    content: "\01F6D2";
+}
+
+th, td {
+    text-align: left;
+    size: 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #d36612;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+tbody tr:hover {
+    background-color: #ccffcc;
+}
+
+td:nth-child(1) {
+    width: 5%;
+
+}
+
+td:nth-child(2) {
+    width: 75%;
+    font-family: 'Hind Siliguri', sans-serif;;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    width: 10%;
+
+}
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+.nameP {
+	font-size: 1em;
+
+}
+
+.desc{
+	display: none;
+	font-size: 0.8em;
+}
+
+.headTbl {
+	font-size: 1.5em;
+	border-bottom: 2px solid black;
+	border-radius: 5px;
+	font-family: 'Hind Siliguri', cursive;
+}
